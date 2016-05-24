@@ -32,11 +32,22 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\ROS-VGDB-TX1.cpp">
-      <Filter>Source files</Filter>
-    </ClCompile>
+    <Xml Include="package.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="package.xml" />
+    <ClInclude Include="src\gcc_Debug.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gcc_Release.h">
+      <Filter>Source files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\listener.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\talker.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

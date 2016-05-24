@@ -70,10 +70,15 @@
     <None Include="ROS-VGDB-TX1-Release.vgdbsettings" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\ROS-VGDB-TX1.cpp" />
+    <Xml Include="package.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="package.xml" />
+    <ClInclude Include="src\gcc_Debug.h" />
+    <ClInclude Include="src\gcc_Release.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\listener.cpp" />
+    <ClCompile Include="src\talker.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
