@@ -12,6 +12,16 @@
 *.lck
 GlobalFileTable*
 
+# Visual GDB Ignores
+Debug
+Release
+*.opensdf
+*.sdf
+*.suo
+*.old
+VisualGDBCache
+CodeDB
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
