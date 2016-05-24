@@ -11,6 +11,7 @@
 .vs/
 *.lck
 GlobalFileTable*
+*.db
 
 # Visual GDB Ignores
 Debug
@@ -249,3 +250,4 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
